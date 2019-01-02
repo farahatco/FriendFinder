@@ -73,12 +73,9 @@ $("#resultcount").hide();
     $.ajax("/survey", {
       type: "POST",
       data:  newanswers
-//newanswers
    }).then(
       function(data) {
-       console.log(data)
-    
-      // location.assign("/result");
+
       });
    
   });   
