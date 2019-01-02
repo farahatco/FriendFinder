@@ -16,14 +16,6 @@ app.set("view engine", "handlebars");
 
 var mysql = require("mysql");
 
-  /* var connection = mysql.createConnection({
-  host: "localhost",
-  port: 3306,
-  user: "root",
-  password: "root",
-  database: "survey_db"
-}); */
-
  var connection = mysql.createConnection({
   host: keys.connection.host,
   dbport: keys.connection.dbport,
